@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>What is This?</title>
+                    <!-- <link rel="stylesheet" href="css/foundation.css">-->
+        <link rel="stylesheet" href="css/css.css">
+                        
+    </head>
+<body>
+   
+<table width="600px" border="1" cellpadding="3">
+    <tr>
+<td>Number of Compute Nodes</td>
+<td><input id="one" type="text"></td>
+<td>Number of VMs Per Node</td>
+<td><input id="two" type="text"></td>
+<td><a href="#" onclick="getSum();"><input type="button" value="get Sum"></a></td>
+<td><input id="total" type="text"></td>
+    </tr>
+
+        <tr>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+    </tr>
+
+        <tr>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+    </tr>
+
+        <tr>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+    </tr>
+
+        <tr>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+    </tr>
+
+        <tr>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+<td>......</td>
+    </tr>
+</table>
+
+   
+   <script>
+   function getSum() {
+    var one=parseInt(document.getElementById('one').value);
+    var two=parseInt(document.getElementById('two').value);
+    var tot=one+two;
+    document.getElementById('total').value=tot;
+   }
+   </script>
+</body>
+</html>
