@@ -4366,18 +4366,19 @@ b6YoP/Z+NWyr8lZFecX7QPzQ32J5/mpE9apUpSq3YPl/AgwAL+5zBRKbNNQAAAAASUVORK5CYII=" tr
 
 		animation: makemoon 23s forwards; 
 		 animation-delay: 2s;
-	animation-iteration-count: 1;
+	     animation-iteration-count: 1;
 }
 
 #sun {
-		animation: movesun 23s forwards; 
+		animation: movesun 23s alternate; 
 		 animation-delay: 2s;
-	animation-iteration-count: 1;
+	     animation-iteration-count: 1;
+
 }
 
 #schoolBus {
-	animation: movebus 45s infinite; 
-	animation-iteration-count: 2;	
+	animation: movebus 35s infinite; 
+	/*animation-iteration-count: 2;	*/
 }
 
 @keyframes makenight {
@@ -4440,7 +4441,23 @@ b6YoP/Z+NWyr8lZFecX7QPzQ32J5/mpE9apUpSq3YPl/AgwAL+5zBRKbNNQAAAAASUVORK5CYII=" tr
     to {
          transform: translateY(95px);
          opacity: 0;
+
     }
+
+
+   }
+
+       @keyframes upsun {
+  from {
+          transform: translateY(70px);
+      }
+    to {
+         transform: translateY(0px);
+         opacity: 1;
+    }
+
+
+
 
 
    }
