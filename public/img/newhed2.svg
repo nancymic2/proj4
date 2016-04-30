@@ -1,4 +1,4 @@
-<html><head></head><body><?xml version="1.0" encoding="utf-8"?><?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1043.7 175.6" style="enable-background:new 0 0 1043.7 175.6;" xml:space="preserve">
@@ -132,11 +132,8 @@
 	.st126{fill:#2B2C2B;}
 	.st127{fill:#676767;}
 	.st128{fill:#FFC808;}
-	.st129{fill:#FFD55C;}
-	.st130{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st131{fill:#FFFFFF;stroke:#ffffff;stroke-width:1.9822;stroke-miterlimit:10;}
 </style>
-<polyline id="sky" class="st0" points="1047.7,0 1047.7,175.6 -2,175.6 -2,0 "/>
+<polyline id="XMLID_3_" class="st0" points="1047.7,0 1047.7,175.6 -2,175.6 -2,0 "/>
 <g>
 	<g>
 		
@@ -223,7 +220,7 @@
 		</g>
 	</g>
 	<g>
-		<polygon id="fact1" class="st3" points="531.4,79.6 531.3,94.1 556.1,79.6 556.1,93.9 582.6,79.7 582.5,143.9 557,143.8 555.9,143.8 
+		<polygon class="st3" points="531.4,79.6 531.3,94.1 556.1,79.6 556.1,93.9 582.6,79.7 582.5,143.9 557,143.8 555.9,143.8 
 			531.1,143.7 530.7,143.7 504.7,143.7 504.8,94.3 		"/>
 		<g>
 			<g>
@@ -273,15 +270,15 @@
 		<g>
 			<g>
 				
-					<rect id="factory" x="580" y="50.7" transform="matrix(-1 -2.713893e-003 2.713893e-003 -1 1177.5173 196.4117)" class="st1" width="17.8" height="93.3"/>
+					<rect x="580" y="50.7" transform="matrix(-1 -2.713893e-003 2.713893e-003 -1 1177.5173 196.4117)" class="st1" width="17.8" height="93.3"/>
 				
-					<!--<rect x="579.8" y="50.7" transform="matrix(-1 -2.709056e-003 2.709056e-003 -1 1177.5469 117.91)" class="st1" width="18.1" height="14.8"/>-->
+					<rect x="579.8" y="50.7" transform="matrix(-1 -2.709056e-003 2.709056e-003 -1 1177.5469 117.91)" class="st8" width="18.1" height="14.8"/>
 			</g>
 		</g>
 	</g>
 </g>
 <g>
-	<rect id="police" x="156.9" y="81.4" class="st9" width="68.2" height="60.1"/>
+	<rect x="156.9" y="81.4" class="st9" width="68.2" height="60.1"/>
 	<polygon class="st10" points="221.1,55.2 218.5,55.2 163.5,55.2 161,55.2 156.4,74.7 225.7,74.7 	"/>
 	<rect x="152.6" y="74" class="st11" width="76.8" height="7.9"/>
 	<g>
@@ -361,14 +358,14 @@
 	</g>
 </g>
 <g>
-	<rect id="tower1" x="791.7" y="75" class="st19" width="38.4" height="27.3"/>
+	<rect x="791.7" y="75" class="st19" width="38.4" height="27.3"/>
 	<g>
-		<path id="tower2" class="st19" d="M811.5,64.9c-0.3-0.3-0.8-0.3-1.1,0l-19,14h39.1L811.5,64.9z"/>
+		<path class="st19" d="M811.5,64.9c-0.3-0.3-0.8-0.3-1.1,0l-19,14h39.1L811.5,64.9z"/>
 	</g>
 	<path class="st10" d="M836.7,77.2l-25.3-18.7c-0.3-0.3-0.8-0.3-1.1,0L785,77.2c-0.7,0.6-0.4,1.7,0.6,1.7h5.7l19-14
 		c0.3-0.3,0.8-0.3,1.1,0l19,14h5.7C837.1,78.9,837.5,77.7,836.7,77.2z"/>
 	<g>
-		<rect id="school1" x="759.4" y="94.5" class="st19" width="102.9" height="50.1"/>
+		<rect x="759.4" y="94.5" class="st19" width="102.9" height="50.1"/>
 		<g>
 			<g>
 				<g>
@@ -593,8 +590,8 @@
 				</g>
 			</g>
 		</g>
-		<rect id="hospital" x="35.4" y="64.1" class="st11" width="72.6" height="72.5"/>
-		<rect id="cross" x="56.1" y="45.2" class="st24" width="30" height="19"/>
+		<rect x="35.4" y="64.1" class="st11" width="72.6" height="72.5"/>
+		<rect x="56.1" y="45.2" class="st24" width="30" height="19"/>
 		<g>
 			<g>
 				<rect x="90.3" y="121.1" class="st2" width="10.6" height="12.7"/>
@@ -794,7 +791,7 @@
 <rect x="708.7" y="36.6" class="st27" width="24.1" height="22.5"/>
 <polyline class="st28" points="734.8,18.5 685.2,141.8 684,139 733.7,15.6 "/>
 <polyline class="st2" points="737.9,26.1 688.3,149.5 686.2,144.5 735.9,21.1 "/>
-<rect id="airport" x="708.7" y="36.6" class="st28" width="24.1" height="22.5"/>
+<rect x="708.7" y="36.6" class="st28" width="24.1" height="22.5"/>
 <g>
 	<line class="st29" x1="716.6" y1="37.4" x2="716.6" y2="59.1"/>
 	<line class="st29" x1="724.9" y1="37.4" x2="724.9" y2="59.1"/>
@@ -802,7 +799,7 @@
 <polyline class="st2" points="732.1,28.9 734.6,37.5 706.9,37.5 709.4,28.9 "/>
 <polygon class="st2" points="704.3,56 707.3,65.2 734.2,65.2 737.2,56 "/>
 <polyline class="st2" points="739.6,34.8 739.6,37.5 701.9,37.5 701.9,34.8 "/>
-<rect id="air" x="617" y="90.4" class="st28" width="126.6" height="53.1"/>
+<rect x="617" y="90.4" class="st28" width="126.6" height="53.1"/>
 <rect x="613" y="90.4" class="st2" width="134.7" height="8.2"/>
 <g>
 	<g>
@@ -821,7 +818,7 @@
 <rect x="617" y="98.6" class="st30" width="126.6" height="4.1"/>
 <g>
 	<g>
-		<rect id="market" x="868.9" y="86.8" class="st17" width="177.9" height="56.8"/>
+		<rect x="868.9" y="86.8" class="st17" width="177.9" height="56.8"/>
 		<g>
 			<g>
 				<defs>
@@ -3557,69 +3554,67 @@
 		</g>
 	</g>
 </g>
-<g id="XMLID_4_">
-	<g id="XMLID_72_">
-		<rect id="XMLID_104_" x="262.8" y="90.4" class="st10" width="57.8" height="43.8"/>
-		<g id="XMLID_95_">
-			<g id="XMLID_100_">
-				<rect id="XMLID_103_" x="278.7" y="93.9" class="st11" width="6.2" height="34.8"/>
-				<rect id="XMLID_102_" x="276.6" y="128.7" class="st11" width="10.6" height="6.1"/>
-				<rect id="XMLID_101_" x="276.6" y="90.8" class="st11" width="10.6" height="6.1"/>
+<g>
+	<g>
+		<rect x="248.8" y="90.4" class="st10" width="57.8" height="43.8"/>
+		<g>
+			<g>
+				<rect x="264.7" y="93.9" class="st11" width="6.2" height="34.8"/>
+				<rect x="262.6" y="128.7" class="st11" width="10.6" height="6.1"/>
+				<rect x="262.6" y="90.8" class="st11" width="10.6" height="6.1"/>
 			</g>
-			<g id="XMLID_96_">
-				<rect id="XMLID_99_" x="298.3" y="93.9" class="st11" width="6.2" height="34.8"/>
-				<rect id="XMLID_98_" x="296.2" y="128.7" class="st11" width="10.6" height="6.1"/>
-				<rect id="XMLID_97_" x="296.2" y="90.8" class="st11" width="10.6" height="6.1"/>
-			</g>
-		</g>
-		<g id="XMLID_86_">
-			<g id="XMLID_91_">
-				<rect id="XMLID_94_" x="260.4" y="93.3" class="st11" width="6.2" height="34.8"/>
-				<rect id="XMLID_93_" x="258.2" y="128.1" class="st11" width="10.6" height="6.1"/>
-				<rect id="XMLID_92_" x="258.2" y="90.3" class="st11" width="10.6" height="6.1"/>
-			</g>
-			<g id="XMLID_87_">
-				<rect id="XMLID_90_" x="316.7" y="93.4" class="st11" width="6.2" height="34.8"/>
-				<rect id="XMLID_89_" x="314.5" y="128.2" class="st11" width="10.6" height="6.1"/>
-				<rect id="XMLID_88_" x="314.5" y="90.4" class="st11" width="10.6" height="6.1"/>
+			<g>
+				<rect x="284.3" y="93.9" class="st11" width="6.2" height="34.8"/>
+				<rect x="282.2" y="128.7" class="st11" width="10.6" height="6.1"/>
+				<rect x="282.2" y="90.8" class="st11" width="10.6" height="6.1"/>
 			</g>
 		</g>
-		<rect id="XMLID_85_" x="258.6" y="130.7" class="st11" width="66.1" height="3.9"/>
-		<g id="XMLID_77_">
-			<polygon id="XMLID_84_" class="st2" points="325.7,132.6 257.7,132.6 258.2,130.7 325.1,130.7 			"/>
-			<g id="XMLID_78_">
-				<polygon id="XMLID_83_" class="st11" points="327,136.5 256.6,136.5 257.7,132.6 325.7,132.6 				"/>
-				<polygon id="XMLID_82_" class="st2" points="327.6,138.4 256,138.4 257.1,134.5 326.3,134.5 				"/>
-				<polygon id="XMLID_81_" class="st11" points="328.3,140.4 255.4,140.4 256.6,136.5 327,136.5 				"/>
-				<polygon id="XMLID_80_" class="st2" points="328.9,142.3 254.9,142.3 256,138.4 327.6,138.4 				"/>
-				<polygon id="XMLID_79_" class="st11" points="328.9,142.3 254.9,142.3 255.4,140.4 328.3,140.4 				"/>
+		<g>
+			<g>
+				<rect x="246.4" y="93.3" class="st11" width="6.2" height="34.8"/>
+				<rect x="244.2" y="128.1" class="st11" width="10.6" height="6.1"/>
+				<rect x="244.2" y="90.3" class="st11" width="10.6" height="6.1"/>
+			</g>
+			<g>
+				<rect x="302.7" y="93.4" class="st11" width="6.2" height="34.8"/>
+				<rect x="300.5" y="128.2" class="st11" width="10.6" height="6.1"/>
+				<rect x="300.5" y="90.4" class="st11" width="10.6" height="6.1"/>
 			</g>
 		</g>
-		<rect id="XMLID_76_" x="258.2" y="90.3" class="st11" width="66.8" height="5"/>
-		<g id="XMLID_73_">
-			<polygon id="XMLID_75_" class="st14" points="256.6,91.8 291.7,65 326.7,91.8 			"/>
-			<polyline id="XMLID_74_" class="st119" points="257.1,91.8 292.1,65 326.2,91.6 			"/>
+		<rect x="244.6" y="130.7" class="st11" width="66.1" height="3.9"/>
+		<g>
+			<polygon class="st2" points="311.7,132.6 243.7,132.6 244.2,130.7 311.1,130.7 			"/>
+			<g>
+				<polygon class="st11" points="313,136.5 242.6,136.5 243.7,132.6 311.7,132.6 				"/>
+				<polygon class="st2" points="313.6,138.4 242,138.4 243.1,134.5 312.3,134.5 				"/>
+				<polygon class="st11" points="314.3,140.4 241.4,140.4 242.6,136.5 313,136.5 				"/>
+				<polygon class="st2" points="314.9,142.3 240.9,142.3 242,138.4 313.6,138.4 				"/>
+				<polygon class="st11" points="314.9,142.3 240.9,142.3 241.4,140.4 314.3,140.4 				"/>
+			</g>
+		</g>
+		<rect x="244.2" y="90.3" class="st11" width="66.8" height="5"/>
+		<g>
+			<polygon class="st14" points="242.6,91.8 277.7,65 312.7,91.8 			"/>
+			<polyline class="st119" points="243.1,91.8 278.1,65 312.2,91.6 			"/>
 		</g>
 	</g>
-	<g id="XMLID_5_">
-		<path id="XMLID_68_" class="st10" d="M278.1,87.7v-5.9h-1v-1h2.6c0.7,0,1.3,0,1.6,0.1c0.4,0.1,0.7,0.3,1,0.7
-			c0.3,0.4,0.4,0.8,0.4,1.2c0,0.4-0.1,0.7-0.2,1c-0.2,0.3-0.4,0.5-0.7,0.7c0.4,0.2,0.8,0.4,1,0.8c0.2,0.4,0.4,0.8,0.4,1.2
-			c0,0.4-0.1,0.7-0.3,1.1c-0.2,0.3-0.4,0.6-0.7,0.7c-0.3,0.2-0.6,0.3-1,0.4c-0.3,0.1-0.8,0.1-1.4,0.1h-2.7v-1H278.1z M279.3,84.1
-			h0.7c0.6,0,1-0.1,1.2-0.3c0.2-0.2,0.3-0.5,0.3-0.9c0-0.8-0.5-1.1-1.5-1.1h-0.7V84.1z M279.3,87.7h0.4c0.6,0,1,0,1.3-0.1
-			c0.3-0.1,0.5-0.2,0.7-0.4c0.2-0.2,0.3-0.5,0.3-0.8c0-0.3-0.1-0.6-0.2-0.8c-0.2-0.2-0.4-0.4-0.6-0.4c-0.3-0.1-0.6-0.1-1.1-0.1h-0.7
-			V87.7z"/>
-		<path id="XMLID_12_" class="st10" d="M289.2,85.9h-2.9l-0.6,1.8h1v1h-3.1v-1h1l2.2-6h-1v-0.9h4v0.9h-1l2.2,6h0.9v1h-3.1v-1h1
-			L289.2,85.9z M288.9,85l-1.1-3.3h-0.1l-1.1,3.3H288.9z"/>
-		<path id="XMLID_9_" class="st10" d="M293,87.7v-5.9h-1.1v-1h2.7L298,87v-5.2h-1.1v-1h3.2v1H299v7h-1.2l-3.8-6.8v5.7h1.1v1h-3.2v-1
-			H293z"/>
-		<path id="XMLID_6_" class="st10" d="M301.4,87.7v-5.9h-1v-1h3.2v1h-1v5.9h0.9v1h-3.1v-1H301.4z M302.6,84.6l2.5-2.7h-0.9v-1h3.1v1
-			h-0.8l-2.4,2.7l2.5,3.2h0.8v1h-3.2v-1h0.9L302.6,84.6z"/>
+	<g>
+		<path class="st10" d="M264.1,87.7v-5.9h-1v-1h2.6c0.7,0,1.3,0,1.6,0.1c0.4,0.1,0.7,0.3,1,0.7c0.3,0.4,0.4,0.8,0.4,1.2
+			c0,0.4-0.1,0.7-0.2,1c-0.2,0.3-0.4,0.5-0.7,0.7c0.4,0.2,0.8,0.4,1,0.8c0.2,0.4,0.4,0.8,0.4,1.2c0,0.4-0.1,0.7-0.3,1.1
+			c-0.2,0.3-0.4,0.6-0.7,0.7c-0.3,0.2-0.6,0.3-1,0.4c-0.3,0.1-0.8,0.1-1.4,0.1h-2.7v-1H264.1z M265.3,84.1h0.7c0.6,0,1-0.1,1.2-0.3
+			c0.2-0.2,0.3-0.5,0.3-0.9c0-0.8-0.5-1.1-1.5-1.1h-0.7V84.1z M265.3,87.7h0.4c0.6,0,1,0,1.3-0.1c0.3-0.1,0.5-0.2,0.7-0.4
+			c0.2-0.2,0.3-0.5,0.3-0.8c0-0.3-0.1-0.6-0.2-0.8c-0.2-0.2-0.4-0.4-0.6-0.4c-0.3-0.1-0.6-0.1-1.1-0.1h-0.7V87.7z"/>
+		<path class="st10" d="M275.2,85.9h-2.9l-0.6,1.8h1v1h-3.1v-1h1l2.2-6h-1v-0.9h4v0.9h-1l2.2,6h0.9v1h-3.1v-1h1L275.2,85.9z
+			 M274.9,85l-1.1-3.3h-0.1l-1.1,3.3H274.9z"/>
+		<path class="st10" d="M279,87.7v-5.9h-1.1v-1h2.7L284,87v-5.2h-1.1v-1h3.2v1H285v7h-1.2l-3.8-6.8v5.7h1.1v1h-3.2v-1H279z"/>
+		<path class="st10" d="M287.4,87.7v-5.9h-1v-1h3.2v1h-1v5.9h0.9v1h-3.1v-1H287.4z M288.6,84.6l2.5-2.7h-0.9v-1h3.1v1h-0.8l-2.4,2.7
+			l2.5,3.2h0.8v1h-3.2v-1h0.9L288.6,84.6z"/>
 	</g>
 </g>
 <g id="XMLID_153_">
 	<g id="XMLID_188_">
 		<g id="XMLID_190_">
-			<rect id="gas" x="390.9" y="98.3" class="st120" width="57.7" height="43.7"/>
+			<rect id="XMLID_199_" x="390.9" y="98.3" class="st120" width="57.7" height="43.7"/>
 			<g id="XMLID_194_">
 				<rect id="XMLID_198_" x="394.7" y="109.3" class="st2" width="21.5" height="19.9"/>
 				<g id="XMLID_195_">
@@ -3646,19 +3641,18 @@
 	<rect id="XMLID_180_" x="416.8" y="83.2" class="st124" width="5.9" height="59"/>
 	<rect id="XMLID_179_" x="335" y="83.2" class="st124" width="5.9" height="59"/>
 	<rect id="XMLID_178_" x="327.9" y="78.8" class="st125" width="107.3" height="8.4"/>
-	<g id="schoolBus">
-		<path id="busbody" class="st9" d="M20.8,126.8c12.8,0,15.4,5,19,9c0.8,0.9,11.6,1.5,11.6,8c0,1.5-0.7,2.4-0.7,2.4
-			c-0.7,1-2.3,1.9-3.4,1.9h-5c-1.1,0-3,0-4.1,0h-0.5c-1.1,0-3,0-4.1,0H3.8c-1.1,0-0.4-1.2-0.4-2.5v-10C3.4,134.5,6,126.8,20.8,126.8
-			z"/>
-		<path id="window1" class="st26" d="M34.1,139h-14v-6.8C32.1,132.3,34.1,133.4,34.1,139z"/>
-		<path id="window2" class="st26" d="M16.7,131.9c0.1,0,0.6,0.3,0.6,0.3v6.8H4.8C4.8,133.4,10.4,131.9,16.7,131.9z"/>
+	<g id="XMLID_162_">
+		<path id="XMLID_175_" class="st9" d="M20.1,116c12.8,0,15.4,5,19,9c0.8,0.9,11.6,1.5,11.6,8c0,1.5-0.7,2.4-0.7,2.4
+			c-0.7,1-2.3,1.9-3.4,1.9h-5c-1.1,0-3,0-4.1,0h-0.5c-1.1,0-3,0-4.1,0H3c-1.1,0-0.4-1.2-0.4-2.5v-10C2.6,123.7,5.2,116,20.1,116z"/>
+		<path id="XMLID_172_" class="st26" d="M34.1,126h-14v-6.8C32.1,119.3,34.1,120.4,34.1,126z"/>
+		<path id="XMLID_169_" class="st26" d="M16.7,118.9c0.1,0,0.6,0.3,0.6,0.3v6.8H4.8C4.8,120.4,10.4,118.9,16.7,118.9z"/>
 		<g id="XMLID_166_">
-			<circle id="XMLID_168_" class="st126" cx="40.7" cy="150.3" r="6"/>
-			<circle id="XMLID_167_" class="st127" cx="40.7" cy="150.3" r="3.1"/>
+			<circle id="XMLID_168_" class="st126" cx="40.7" cy="137.3" r="6"/>
+			<circle id="XMLID_167_" class="st127" cx="40.7" cy="137.3" r="3.1"/>
 		</g>
 		<g id="XMLID_163_">
-			<circle id="XMLID_165_" class="st126" cx="10" cy="150.3" r="6"/>
-			<circle id="XMLID_164_" class="st127" cx="10" cy="150.3" r="3.1"/>
+			<circle id="XMLID_165_" class="st126" cx="10" cy="137.3" r="6"/>
+			<circle id="XMLID_164_" class="st127" cx="10" cy="137.3" r="3.1"/>
 		</g>
 	</g>
 	<g id="XMLID_154_">
@@ -3673,248 +3667,4 @@
 	</g>
 </g>
 <line class="st128" x1="119.6" y1="23.9" x2="119.6" y2="37.1"/>
-<g id="sun">
-	<polygon id="XMLID_110_" class="st129" points="256,10.8 262.6,1 261.3,12.7 272.6,9.4 264.1,17.6 274.9,22.3 263.1,23.1 
-		268.3,33.7 258.8,26.7 256,38.2 253.2,26.7 243.7,33.7 248.9,23.1 237.1,22.3 247.9,17.6 239.4,9.4 250.7,12.7 249.4,1 	"/>
-	<polygon id="XMLID_109_" class="st129" points="253.7,14 255.7,4.9 258.1,13.9 265.5,8.2 261.6,16.6 270.9,17 262.5,21 269.3,27.2 
-		260.3,24.8 261.6,34.1 256.2,26.5 251.2,34.3 252,25 243.2,27.8 249.7,21.3 241.1,17.7 250.4,16.9 246.1,8.6 	"/>
-	<circle id="XMLID_106_" class="st128" cx="256" cy="19.6" r="10.7"/>
-</g>
-<path id="cloud1" opacity="1" class="st130" d="M400.6,30.6c0.7-3.7,3.3-6.6,6.6-7.8c1.8-4.1,6-6.7,10.7-6.2c2.8,0.3,5.2,1.7,6.9,3.7
-	c0.5,0,1,0,1.4,0.1c1.5,0.2,3,0.7,4.2,1.4c1.4-0.5,2.9-0.6,4.4-0.5c3.7,0.4,6.8,2.8,8.3,5.9c0.5,0,1,0,1.5,0.1
-	c5.7,0.6,9.8,5.8,9.2,11.5c-0.6,5.7-5.8,9.8-11.5,9.2c-1.1-0.1-2.2-0.4-3.2-0.9c-1.9,3.7-6,6.1-10.4,5.6c-2.1-0.2-4-1.1-5.5-2.3
-	c-2.1,2-5.1,3.2-8.3,2.8c-2.8-0.3-5.3-1.7-6.9-3.8c-0.9,0.1-1.7,0.1-2.6,0c-5.7-0.6-9.8-5.8-9.2-11.5
-	C396.6,34.8,398.3,32.2,400.6,30.6z"/>
-<path id="cloud2" opacity="1" class="st130" d="M873.9,22.8c0.6-2.6,3.1-4.6,6.5-5.3c1.7-2.9,6-4.6,10.9-4.1c2.9,0.3,5.5,1.4,7.3,2.9
-	c0.5,0,1,0,1.5,0.1c1.6,0.2,3.1,0.6,4.4,1.2c1.4-0.3,3-0.4,4.6-0.2c3.9,0.4,7.1,2.2,8.8,4.5c0.5,0,1,0,1.6,0.1
-	c5.9,0.7,10.4,4.5,9.9,8.5c-0.4,4.1-5.6,6.8-11.6,6.2c-1.2-0.1-2.3-0.4-3.3-0.7c-1.8,2.6-6,4.2-10.6,3.7c-2.2-0.2-4.2-0.9-5.8-1.9
-	c-2.1,1.4-5.2,2.1-8.5,1.7c-3-0.3-5.5-1.4-7.3-3c-0.9,0.1-1.8,0-2.7-0.1c-5.9-0.7-10.4-4.5-9.9-8.5
-	C869.9,25.7,871.5,23.9,873.9,22.8z"/>
-<g id="moon" opacity="0">
-	<ellipse id="XMLID_113_" class="st131" cx="19" cy="67.8" rx="15" ry="15.5"/>
-</g>
 </svg>
-<div class="all">
-		<div class="highway">
-			<img class="road" src="img/road.png">
-		</div>
-	<img class="bigcar" src="img/bigcar.png">
-</div>
-
-<style>
-
-.all {
-	perspective: 500px;
-	perspective-origin: 30px;
-
-	position: absolute;
-	top: -240px;
-	left: 200px;
-}
-
-.highway {
-	z-index: -1;
-}
-
-.road {
-
-	transform: translateZ(-1em);
-	transform: rotateX(50deg);
-}
-
-.bigcar {
-	z-index: 20;
-	position: absolute;
-	top: 1100px;
-	left: -60px;
-		 animation: goUp 8s forwards;
-	 	animation-iteration-count: 40;
-	
-}
-
- @keyframes goUp {
-
-      from {
-          transform: translateY(0px);
-          
-
-         width: 450px;
-
-      }
-	    to {
-	         transform: translateY(-890px);
-
-
-
-	        width: 40px;
-	    }
-
-   }
-
-
-
-body {
-	background: #7E587E;
-}
-hr {
-	width: 100%;
-
-	border-top: 13px double #8c8b8b;
-}
-
-#sky {
-	 animation: nightSky 28s forwards;
-	 	animation-iteration-count: 1;
-
-}
-#all {
-	width: 30vw;
-}
-
-#wanda {
-	width: 20vw;
-	margin-left: 10vw;
-	margin-top: 10vw;
-}
-
-#night {
-
-	animation: makenight 25s forwards; 
-	animation-iteration-count: 1;
-}
-
-#cloud1 {
-
-	animation: nocloud 20s forwards; 
-	animation-iteration-count: 1;
-}
-
-#cloud2 {
-
-	animation: nocloud 25s forwards; 
-	animation-iteration-count: 1;
-}
-
-
-
-#moon {
-stroke: white;
-		animation: makemoon 23s forwards; 
-		 animation-delay: 2s;
-	animation-iteration-count: 1;
-}
-
-#sun {
-		animation: movesun 23s forwards; 
-		 animation-delay: 2s;
-	animation-iteration-count: 1;
-}
-#busbody {
-	fill: red;
-}
-
-#schoolBus {
-	
-	animation: movebus 15s infinite; 
-	/*animation-iteration-count: 2;	*/
-}
-
-@keyframes makenight {
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes nocloud {
-	to {
-		opacity: 0;
-	}
-}
-
- @keyframes makemoon {
-
-      from {
-          transform: translateY(0px);
-         
-
-      }
-	    to {
-	         transform: translateY(-50px);
-
-	         opacity: 1;
-	    }
-
-   }
-
-
- @keyframes movebus {
-
-
-      from {
-          transform: translateX(-100px);
-      }
-    to {
-         transform: translateX(1695px);
-    }
-
-   }
-
-    @keyframes movesun {
-
-
-
-    to {
-         transform: translateY(95px);
-         opacity: 0;
-    }
-
-
-   }
-    @keyframes nightSky
-    {
-      0%   {fill: #BDE6F5;}
-      100% {fill: black;}
-    }
-    @keyframes gored
-    {
-      50% {fill: orange;}
-      100% {fill: red;}
-    }
-
- #fact1:hover, #airport:hover, #cross:hover {
-	fill: yellow;
-}
-
-
-
-#air:hover, #hospital:hover {
-	fill: green;
-}
-#police:hover {
-	fill: #ff00ff;
-}
-
-#school1:hover, #gas:hover {
-	fill: #ff00ff;
-}
-
-
-
-#market:hover {
-fill: red;
-}
-
-#factory {
-      
-    transition: width 1s;
-  }
-
-#factory:hover {
-fill: black;
-     width: 150px;
-}
-
-
-</style>
-</body>
-</html>

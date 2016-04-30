@@ -1,0 +1,119 @@
+<html><head></head><body>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" opacity="0" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-281 367 47.4 59"
+	 enable-background="new -281 367 47.4 59" xml:space="preserve">
+<metadata>
+</metadata>
+<path id="star" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M-253.8,370.4l3.9,8.3c0.6,1.2,1.7,2,2.9,2.2l8.8,1.3c3.2,0.5,4.5,4.6,2.2,6.9l-6.4,6.5c-0.9,0.9-1.3,2.3-1.1,3.6l1.5,9.1
+	c0.5,3.3-2.8,5.9-5.7,4.3l-7.9-4.3c-1.1-0.6-2.5-0.6-3.6,0l-7.8,4.3c-2.9,1.6-6.2-1-5.7-4.3l1.5-9.1c0.2-1.3-0.2-2.7-1.1-3.6
+	l-6.4-6.5c-2.3-2.4-1-6.5,2.2-6.9l8.8-1.3c1.3-0.2,2.4-1,2.9-2.2l3.9-8.3C-259.4,367.3-255.2,367.3-253.8,370.4z"/>
+
+</svg>
+
+
+<style>
+
+#Layer_1 {
+width: 100px;
+		animation: makenight .25s alternate; 
+	animation-iteration-count: 13;
+		
+}
+#star {
+
+	 fill:yellow;
+}
+
+#moon {
+
+		animation: makemoon 23s forwards; 
+		 animation-delay: 2s;
+	animation-iteration-count: 1;
+}
+
+#sun {
+		animation: movesun 23s forwards; 
+		 animation-delay: 2s;
+	animation-iteration-count: 1;
+}
+
+#schoolBus {
+	animation: movebus 35s infinite; 
+	/*animation-iteration-count: 2;	*/
+}
+
+@keyframes makenight {
+	to {
+		opacity: 1;
+
+	}
+}
+
+ @keyframes makemoon {
+  /*from {
+          transform: translateX(-1110px);
+      }
+    to {
+         transform: translateX(100px);
+    }*/
+      from {
+          transform: translateY(0px);
+           transform: translateX(30px);
+
+      }
+	    to {
+	         transform: translateY(-70px);
+
+	         opacity: 1;
+	    }
+
+
+    	/*to {
+		opacity: 1;
+		}*/
+   }
+
+
+ @keyframes movebus {
+  /*from {
+          transform: translateX(-1110px);
+      }
+    to {
+         transform: translateX(100px);
+    }*/
+
+      from {
+          transform: translateX(-100px);
+      }
+    to {
+         transform: translateX(2095px);
+    }
+
+   }
+
+    @keyframes movesun {
+  /*from {
+          transform: translateX(-1110px);
+      }
+    to {
+         transform: translateX(100px);
+    }*/
+
+
+    to {
+         transform: translateY(95px);
+         opacity: 0;
+    }
+
+
+   }
+
+
+</style>
+</body>
+</html>
