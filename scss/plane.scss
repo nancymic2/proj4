@@ -1,44 +1,3 @@
-<html><head></head>
-<body>
-
-<img class="bigcar" src="img/bigcarwa.png">
-
-<img src="img/hello.png" class="hello">
-
-<img src="img/mom.png" id="mom">
-<img src="img/hiWanda.png" class="hi">
-
-<style>
-#mom {
-	position: absolute;
-	top: 300;
-	left: 800;
-}
-
-.hi {
-opacity: 0;
-position: absolute;
-top: 290px;
-left: 980px;
-		animation: sayHi 1s forwards; 
-		 animation-delay: 10s;
-	animation-iteration-count: 1;
-}
-
-.hello {
-opacity: 0;
-position: absolute;
-top: 220px;
-left: 500px;
-		animation: sayHi 1s forwards; 
-		 animation-delay: 8s;
-	animation-iteration-count: 1;
-}
-
- @keyframes sayHi {
- 0% {opacity: 0;}
-  100% {opacity: 1;}
-      }
 
 .all {
 	perspective: 500px;
@@ -57,15 +16,15 @@ left: 500px;
 
 	transform: translateZ(-1em);
 	transform: rotateX(50deg);
-
 }
+
 .bigcar {
 	z-index: 20;
 	position: absolute;
-	top: 0px;
-	left: 0px; 
+	top: 1100px;
+	left: -40px;
 		 animation: goUp 8s forwards;
-	 	animation-iteration-count: 1;
+	 	animation-iteration-count: 200;
 	
 }
 
@@ -75,23 +34,18 @@ left: 500px;
           transform: translateY(0px);
           
 
-         width: 50px;
+         width: 450px;
 
       }
 	    to {
-	         transform: translateY(300px);
+	         transform: translateY(-890px);
 
 
 
-	        width: 600px;
-	       
+	        width: 40px;
 	    }
-  
+
    }
-   
-
-
-
 
 
 
@@ -256,9 +210,3 @@ fill: red;
 fill: black;
      width: 150px;
 }
-
-
-
-</style>
-</body>
-</html>
