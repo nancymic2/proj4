@@ -3752,7 +3752,11 @@
 
       }
 
-      80% {
+      60% {
+      	opacity: 0.3;
+      }
+
+      70% {
       	opacity: 0;
       }
 	    100% {
@@ -3905,7 +3909,7 @@ stroke: white;
       100% {fill: red;}
     }
 
- #fact1:hover, #airport:hover, #cross:hover {
+ #fact1:hover, #cross:hover {
 	fill: yellow;
 }
 
@@ -3938,6 +3942,16 @@ fill: black;
      width: 150px;
 }
 
+#airport {
+	animation: blink 2s infinite; 
+	fill: white;
+}
+
+    @keyframes blink
+    {
+      50% {fill: orange;}
+      100% {fill: yellow;}
+    }
 
 </style>
 </body>
