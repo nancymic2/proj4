@@ -4121,8 +4121,17 @@ dorg AB851D
 
 
 body {
-	background: #7E587E;
+	background: green;
+	 animation: nighttime 46s forwards;
+	 	animation-iteration-count: 100;
 }
+
+   @keyframes nighttime
+    {
+      0%   {background: #00cc00;}
+      50% {background: #003300;}
+      100%   {background: #00cc00;}
+    }
 hr {
 	width: 100%;
 
@@ -4267,7 +4276,6 @@ z-index: 100;
  #fact1:hover, #cross:hover {
 	fill: yellow;
 }
-
 
 
 #air:hover, #hospital:hover {

@@ -3763,7 +3763,7 @@
 </svg>
 </div>
 
-
+<div id="wholeguy">
 <div id="man">
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
@@ -3851,12 +3851,17 @@
 </g>
 </svg>
 </div>
+</div>
 <img id="smallroad" src="img/smallroad.png">
 <img id="smallroadV" src="img/smallroadV.png">
 <div class="fly"><img id="plane" src="img/newplane.png">
 
 <img id="prop" src="img/propel.png"></div>
 <style>
+#wholeguy {
+	height: 50px;
+	width: 60px;
+}
 /*
 #man {
 width: 100px; 
@@ -4116,8 +4121,17 @@ dorg AB851D
 
 
 body {
-	background: #7E587E;
+	background: green;
+	 animation: nighttime 46s forwards;
+	 	animation-iteration-count: 100;
 }
+
+   @keyframes nighttime
+    {
+      0%   {background: #00cc00;}
+      50% {background: #003300;}
+      100%   {background: #00cc00;}
+    }
 hr {
 	width: 100%;
 
@@ -4184,20 +4198,20 @@ stroke: white;
 	fill: #5FFB17;
 }
 #schoolBus3 {
-
+z-index: 100;
 	animation: movebus 13s infinite; 
 	
 	/*animation-iteration-count: 2;	*/
 }
 
 #schoolBus2 {
-
+z-index: 100;
 	animation: movebus 10s infinite; 
 	/*animation-iteration-count: 2;	*/
 }
 
 #schoolBus {
-	
+	z-index: 100;
 	animation: movebus 15s infinite; 
 	/*animation-iteration-count: 2;	*/
 }
@@ -4262,7 +4276,6 @@ stroke: white;
  #fact1:hover, #cross:hover {
 	fill: yellow;
 }
-
 
 
 #air:hover, #hospital:hover {
