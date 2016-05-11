@@ -1,0 +1,282 @@
+<html><head></head>
+<body>
+
+<div class="bigcar">
+
+<img id="plane" src="img/newplane.png">
+
+<img id="prop" src="img/propel.png">
+</div>
+
+<style>
+
+    #prop {
+position: relative;
+left: 150px;
+top: -120px;
+  animation: spin 0.5s infinite; 
+  animation-timing-function: linear;
+	
+}
+
+
+    @keyframes spin
+    {
+     from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+    }
+
+
+#mom {
+	position: absolute;
+	top: 300;
+	left: 800;
+}
+
+.hi {
+opacity: 0;
+position: absolute;
+top: 290px;
+left: 980px;
+		animation: sayHi 1s forwards; 
+		 animation-delay: 10s;
+	animation-iteration-count: 1;
+}
+
+.hello {
+opacity: 0;
+position: absolute;
+top: 220px;
+left: 500px;
+		animation: sayHi 1s forwards; 
+		 animation-delay: 8s;
+	animation-iteration-count: 1;
+}
+
+ @keyframes sayHi {
+ 0% {opacity: 0;}
+  100% {opacity: 1;}
+      }
+
+.all {
+	perspective: 500px;
+	perspective-origin: 30px;
+
+	position: absolute;
+	top: -240px;
+	left: 200px;
+}
+
+.highway {
+	z-index: -1;
+}
+
+.road {
+
+	transform: translateZ(-1em);
+	transform: rotateX(50deg);
+
+}
+.bigcar {
+	z-index: 20;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+		 animation: goUp 8s forwards;
+	 	animation-iteration-count: 1;
+	
+}
+
+ @keyframes goUp {
+
+      from {
+          transform: translateY(0px);
+          
+
+         width: 50px;
+
+      }
+	    to {
+	         transform: translateY(300px);
+
+
+
+	        width: 600px;
+	       
+	    }
+  
+   }
+   
+
+
+
+
+
+
+body {
+	background: #7E587E;
+}
+hr {
+	width: 100%;
+
+	border-top: 13px double #8c8b8b;
+}
+
+#sky {
+	
+	 animation: nightSky 28s forwards;
+	 	animation-iteration-count: 1;
+
+}
+#all {
+	width: 30vw;
+}
+
+#wanda {
+	width: 20vw;
+	margin-left: 10vw;
+	margin-top: 10vw;
+}
+
+#night {
+
+	animation: makenight 65s forwards; 
+	animation-iteration-count: 1;
+}
+
+#cloud1 {
+
+	animation: nocloud 20s forwards; 
+	animation-iteration-count: 1;
+}
+
+#cloud2 {
+
+	animation: nocloud 25s forwards; 
+	animation-iteration-count: 1;
+}
+
+
+
+#moon {
+stroke: white;
+		animation: makemoon 23s forwards; 
+		 animation-delay: 2s;
+	animation-iteration-count: 1;
+}
+
+#sun {
+		animation: movesun 23s forwards; 
+		 animation-delay: 2s;
+	animation-iteration-count: 1;
+}
+#busbody {
+	fill: red;
+}
+
+#schoolBus {
+	
+	animation: movebus 15s infinite; 
+	/*animation-iteration-count: 2;	*/
+}
+
+@keyframes makenight {
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes nocloud {
+	to {
+		opacity: 0;
+	}
+}
+
+ @keyframes makemoon {
+
+      from {
+          transform: translateY(0px);
+         
+
+      }
+	    to {
+	         transform: translateY(-50px);
+
+	         opacity: 1;
+	    }
+
+   }
+
+
+ @keyframes movebus {
+
+
+      from {
+          transform: translateX(-100px);
+      }
+    to {
+         transform: translateX(1695px);
+    }
+
+   }
+
+    @keyframes movesun {
+
+
+
+    to {
+         transform: translateY(95px);
+         opacity: 0;
+    }
+
+
+   }
+    @keyframes nightSky
+    {
+      0%   {fill: #BDE6F5;}
+      100% {fill: black;}
+    }
+    @keyframes gored
+    {
+      50% {fill: orange;}
+      100% {fill: red;}
+    }
+
+ #fact1:hover, #airport:hover, #cross:hover {
+	fill: yellow;
+}
+
+
+
+#air:hover, #hospital:hover {
+	fill: green;
+}
+#police:hover {
+	fill: #ff00ff;
+}
+
+#school1:hover, #gas:hover {
+	fill: #ff00ff;
+}
+
+
+
+#market:hover {
+fill: red;
+}
+
+#factory {
+      
+    transition: width 1s;
+  }
+
+#factory:hover {
+fill: black;
+     width: 150px;
+}
+
+
+
+</style>
+</body>
+</html>

@@ -3711,21 +3711,6 @@
 			<circle id="XMLID_164_" class="st127" cx="10" cy="150.3" r="3.1"/>
 		</g>
 	</g>
-	<g id="schoolBus3">
-		<path id="busbody3" class="st9" d="M20.8,126.8c12.8,0,15.4,5,19,9c0.8,0.9,11.6,1.5,11.6,8c0,1.5-0.7,2.4-0.7,2.4
-			c-0.7,1-2.3,1.9-3.4,1.9h-5c-1.1,0-3,0-4.1,0h-0.5c-1.1,0-3,0-4.1,0H3.8c-1.1,0-0.4-1.2-0.4-2.5v-10C3.4,134.5,6,126.8,20.8,126.8
-			z"/>
-		<path id="window1" class="st26" d="M34.1,139h-14v-6.8C32.1,132.3,34.1,133.4,34.1,139z"/>
-		<path id="window2" class="st26" d="M16.7,131.9c0.1,0,0.6,0.3,0.6,0.3v6.8H4.8C4.8,133.4,10.4,131.9,16.7,131.9z"/>
-		<g id="XMLID_166_">
-			<circle id="XMLID_168_" class="st126" cx="40.7" cy="150.3" r="6"/>
-			<circle id="XMLID_167_" class="st127" cx="40.7" cy="150.3" r="3.1"/>
-		</g>
-		<g id="XMLID_163_">
-			<circle id="XMLID_165_" class="st126" cx="10" cy="150.3" r="6"/>
-			<circle id="XMLID_164_" class="st127" cx="10" cy="150.3" r="3.1"/>
-		</g>
-	</g>
 </svg>
 <div class="all">
 		<div class="highway">
@@ -3851,11 +3836,7 @@
 </g>
 </svg>
 </div>
-<img id="smallroad" src="img/smallroad.png">
-<img id="smallroadV" src="img/smallroadV.png">
-<div class="fly"><img id="plane" src="img/newplane.png">
 
-<img id="prop" src="img/propel.png"></div>
 <style>
 /*
 #man {
@@ -3879,40 +3860,6 @@ z-index: 4;
 
 } */
 
-
-.fly {
-	z-index: 20;
-	position: absolute;
-	top: 0px;
-	left: 0px; 
-		 animation: goDown 8s forwards;
-	 	animation-iteration-count: 1;
-	
-}
- @keyframes goDown {
-
-      from {
-          transform: translateY(0px);
-          width: 450px;
-
-      }
-	    to {
-	         transform: translateY(500px);
-	        width: 40px;
-	    }
-   }
-#smallroad {
-	  position: absolute;
-      top: 800px;
-      left: 450px;
-      z-index:-1;
-}
-#smallroadV {
-	  position: absolute;
-      top: 230px;
-      left: 750px;
-      z-index:-2;
-}
 #man {
 width: 100px; 
 height: 250px;
@@ -4180,18 +4127,10 @@ stroke: white;
 #busbody {
 	fill: red;
 }
-#busbody3 {
-	fill: #5FFB17;
-}
-#schoolBus3 {
-
-	animation: movebus 13s infinite; 
-	
-	/*animation-iteration-count: 2;	*/
-}
 
 #schoolBus2 {
-
+	transform-origin: center;
+	transform: rotateX(40deg);
 	animation: movebus 10s infinite; 
 	/*animation-iteration-count: 2;	*/
 }
@@ -4308,21 +4247,23 @@ fill: black;
 
 </style>
 
+<img id="plane" src="img/newplane.png">
 
+<img id="prop" src="img/propel.png">
 
 
 <style>
 
 #plane {
         position: absolute;
-      top: 200px;
+      top: 700px;
       left: 650px;
       z-index: -1;
 }
 
     #prop {
     	position: absolute;
-    	top: 312px;
+    	top: 812px;
     	left: 800px;
 	animation: spin 0.5s infinite; 
   animation-timing-function: linear;

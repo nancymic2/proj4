@@ -21,6 +21,20 @@ html {
 .halfCentered > .image {
 	width: 37vw;
 } */
+.imageBig {
+	padding-left: .6em;
+}
+.image100 {
+	width: 100%;
+	
+}
+.image50 {
+	width: 50%;
+	padding-left: 4wv;
+}
+.image30 {
+	width: 30%;
+}
 
 .teal {
 	background-color: #157b82;
@@ -227,7 +241,9 @@ padding-bottom: .4em;*/
 	font-size: 6vw;
 	}
 
-	
+	.word {
+		font-size: 7vw;
+	}
 
 	.quarter {
 		padding-top: 0px;

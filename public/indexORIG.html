@@ -3853,9 +3853,6 @@
 </div>
 <img id="smallroad" src="img/smallroad.png">
 <img id="smallroadV" src="img/smallroadV.png">
-<div class="fly"><img id="plane" src="img/newplane.png">
-
-<img id="prop" src="img/propel.png"></div>
 <style>
 /*
 #man {
@@ -3878,29 +3875,6 @@ z-index: 4;
  animation: wand 3s infinite;
 
 } */
-
-
-.fly {
-	z-index: 20;
-	position: absolute;
-	top: 0px;
-	left: 0px; 
-		 animation: goDown 8s forwards;
-	 	animation-iteration-count: 1;
-	
-}
- @keyframes goDown {
-
-      from {
-          transform: translateY(0px);
-          width: 450px;
-
-      }
-	    to {
-	         transform: translateY(500px);
-	        width: 40px;
-	    }
-   }
 #smallroad {
 	  position: absolute;
       top: 800px;
@@ -3909,7 +3883,7 @@ z-index: 4;
 }
 #smallroadV {
 	  position: absolute;
-      top: 230px;
+      top: 250px;
       left: 750px;
       z-index:-2;
 }
@@ -4308,21 +4282,23 @@ fill: black;
 
 </style>
 
+<img id="plane" src="img/newplane.png">
 
+<img id="prop" src="img/propel.png">
 
 
 <style>
 
 #plane {
         position: absolute;
-      top: 200px;
+      top: 700px;
       left: 650px;
       z-index: -1;
 }
 
     #prop {
     	position: absolute;
-    	top: 312px;
+    	top: 812px;
     	left: 800px;
 	animation: spin 0.5s infinite; 
   animation-timing-function: linear;
