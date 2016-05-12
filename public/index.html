@@ -3858,10 +3858,7 @@
 
 <img id="prop" src="img/propel.png"></div>
 <style>
-#wholeguy {
-	height: 50px;
-	width: 60px;
-}
+
 /*
 #man {
 width: 100px; 
@@ -3890,8 +3887,8 @@ z-index: 4;
 	position: absolute;
 	top: 0px;
 	left: 0px; 
-		 animation: goDown 8s forwards;
-	 	animation-iteration-count: 1;
+	animation: goDown 8s forwards;
+	animation-iteration-count: 1;
 	
 }
  @keyframes goDown {
@@ -3919,41 +3916,38 @@ z-index: 4;
       z-index:-2;
 }
 #man {
-width: 100px; 
-height: 250px;
-transform: translate(-300px,-100px);
-position: absolute;
-top: 40px;
-left: -200px;
-z-index: 5;
+	width: 100px; 
+	height: 250px;
+	transform: translate(-300px,-100px);
+	position: absolute;
+	top: 40px;
+	left: -200px;
+	z-index: 5;
 
 }
 
 #arm {
-width: 110px; 
-height: 110px;
+	width: 110px; 
+	height: 110px;
 
-position: absolute;
-top: 480px;
-left: 1049px;
-z-index: 4;
- animation: wand 3s infinite;
+	position: absolute;
+	top: 480px;
+	left: 1049px;
+	z-index: 4;
+	animation: wand 3s infinite;
 
 } 
 
-
- 
-
- @keyframes wand {
+ @keyframes wand 
+ {
 
   50% {
     transform-origin: right;
-    transform: rotate(40deg);}
+    transform: rotate(40deg);
+	}
 }
 
-</style>
 
-<style>
 /*
 bgreen 12EE49
 dgreen 098628
@@ -3965,7 +3959,7 @@ dorg AB851D
 
 #green {
 	opacity: 1;
-	 animation: greenLight 8s infinite;
+	animation: greenLight 8s infinite;
 }
 
 #red {
@@ -3978,8 +3972,6 @@ dorg AB851D
 }
 
  @keyframes greenLight {
-
-
       
 	    33% {
 	         
@@ -3991,11 +3983,9 @@ dorg AB851D
 	       /* fill: #098628;*/
 	       opacity: 0.3;
 	    }
-	
    }
 
-    @keyframes orangeLight {
-
+  @keyframes orangeLight {
 
 	    33% {
 	         
@@ -4005,11 +3995,9 @@ dorg AB851D
 	         
 	        opacity: 1;
 	    }
+	}
 
-}
-
-       @keyframes redLight {
-
+  @keyframes redLight {
 
 	    33% {
 	         
@@ -4019,8 +4007,6 @@ dorg AB851D
 	         
 	        opacity: 0.3;
 	    }
-	
-
    }
 
 
@@ -4068,7 +4054,7 @@ dorg AB851D
 	opacity: 1;
 	top: 1130px;
 	left: -20px;
-	 animation: cast 8s infinite;
+	animation: cast 8s infinite;
 	
 	
 }
@@ -4088,7 +4074,6 @@ dorg AB851D
       0% {
           transform: translateY(0px);
           width: 450px;
-
       }
 
       40% {
@@ -4114,16 +4099,16 @@ dorg AB851D
 
       }
 	    to {
-	         transform: translateY(-890px);
+	        transform: translateY(-890px);
 	        width: 40px;
 	    }
    }
 
 
 body {
-	background: green;
+	 background: green;
 	 animation: nighttime 46s forwards;
-	 	animation-iteration-count: 100;
+	 animation-iteration-count: 100;
 }
 
    @keyframes nighttime
@@ -4132,6 +4117,7 @@ body {
       50% {background: #003300;}
       100%   {background: #00cc00;}
     }
+
 hr {
 	width: 100%;
 
@@ -4140,7 +4126,7 @@ hr {
 
 #sky {
 	 animation: nightSky 46s forwards;
-	 	animation-iteration-count: 100;
+	 animation-iteration-count: 100;
 
 }
 #all {
@@ -4171,22 +4157,20 @@ hr {
 	animation-iteration-count: 100;
 }
 
-
-
 #moon {
-stroke: white;
-		animation: makemoon 46s forwards; 
+      stroke: white;
+	  animation: makemoon 46s forwards; 
 		 /*animation-delay: 2s;*/
-	animation-iteration-count: 100;
+	  animation-iteration-count: 100;
 
 }
 #sunCenter{
-			animation: setsun 46s forwards; 
+		animation: setsun 46s forwards; 
 		 /*animation-delay: 2s;*/
-	animation-iteration-count: 10;
+	    animation-iteration-count: 10;
 }
 #sun {
-		animation: movesun 46s forwards; 
+	animation: movesun 46s forwards; 
 		 /*animation-delay: 2s;*/
 	animation-iteration-count: 100;
 
@@ -4198,14 +4182,14 @@ stroke: white;
 	fill: #5FFB17;
 }
 #schoolBus3 {
-z-index: 100;
+    z-index: 100;
 	animation: movebus 13s infinite; 
 	
 	/*animation-iteration-count: 2;	*/
 }
 
 #schoolBus2 {
-z-index: 100;
+    z-index: 100;
 	animation: movebus 10s infinite; 
 	/*animation-iteration-count: 2;	*/
 }
@@ -4231,12 +4215,12 @@ z-index: 100;
 
  @keyframes makemoon {
 
-      0% { transform: translateY(0px); }
+        0% { transform: translateY(0px); }
 	    50% { transform: translateY(-50px); opacity: 1; }
 	    100% { transform: translateY(100); opacity: 0;}
 
    }
-    @keyframes movesun {
+ @keyframes movesun {
 
     50% {
          transform: translateY(95px);
@@ -4250,18 +4234,16 @@ z-index: 100;
 
  @keyframes movebus {
 
-
-      from {
+    from {
           transform: translateX(-100px);
-      }
+         }
     to {
          transform: translateX(1695px);
-    }
-
+       }
    }
 
 #letterG, #letterA, #letterS {
-		animation: sign 46s forwards; 
+	animation: sign 46s forwards; 
 		 /*animation-delay: 2s;*/
 	animation-iteration-count: 100;
 }
@@ -4293,16 +4275,12 @@ z-index: 100;
 	fill: green;
 }
 #police:hover {
-	fill: #ff00ff;
+	fill: #ff00ff;  /*this is now blocked by the plane*/
 }
-
-
 
 #school1:hover, #gas:hover {
-	fill: #ff00ff;
+fill: #ff00ff;
 }
-
-
 
 #market:hover {
 fill: red;
@@ -4314,7 +4292,7 @@ fill: red;
   }
 
 #factory:hover {
-fill: black;
+     fill: black;
      width: 150px;
 }
 
@@ -4323,41 +4301,32 @@ fill: black;
 	fill: white;
 }
 
-    @keyframes blink
+@keyframes blink
     {
       33% {fill: orange;}
       66% {fill: yellow;}
       100% {fill: white;}
     }
 
-</style>
-
-
-
-
-<style>
-
 #plane {
-        position: absolute;
+      position: absolute;
       top: 200px;
       left: 650px;
       z-index: -1;
 }
 
-    #prop {
+ #prop {
     	position: absolute;
     	top: 312px;
     	left: 800px;
-	animation: spin 0.5s infinite; 
-  animation-timing-function: linear;
-	
+	    animation: spin 0.5s infinite; 
+        animation-timing-function: linear;
 }
 
-
-    @keyframes spin
+ @keyframes spin
     {
      from {-webkit-transform: rotate(0deg);}
-      to {-webkit-transform: rotate(360deg);}
+     to {-webkit-transform: rotate(360deg);}
     }
 
 
