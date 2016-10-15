@@ -3683,7 +3683,7 @@
 			h-0.8l-2.4,2.7l2.5,3.2h0.8v1h-3.2v-1h0.9L302.6,84.6z"/>
 	</g>
 </g>
- <image id="biker" x="1800" y="1" width="30" height="30" xlink:href="img/bike.svg" />
+ <image id="biker" x="1800" y="120" width="30" height="30" xlink:href="img/bike.svg" />
 	<g id="schoolBus">
 		<path id="busbody" class="st9" d="M20.8,126.8c12.8,0,15.4,5,19,9c0.8,0.9,11.6,1.5,11.6,8c0,1.5-0.7,2.4-0.7,2.4
 			c-0.7,1-2.3,1.9-3.4,1.9h-5c-1.1,0-3,0-4.1,0h-0.5c-1.1,0-3,0-4.1,0H3.8c-1.1,0-0.4-1.2-0.4-2.5v-10C3.4,134.5,6,126.8,20.8,126.8
@@ -4148,29 +4148,28 @@ hr {
 }
 
 #biker {
-	 animation: witch 46s forwards;
+	 animation: ride 16s forwards;
 	 
 	 	animation-iteration-count: 100;
+	 	  animation-timing-function: linear;
+
 
 }
 
- @keyframes witch {
+ @keyframes ride {
 
 
       0% {
           transform: translateX(0px);
       }
-            30% {
-          transform: translateX(0px);
-      }
+      
+      
 
-             60% {
+             100% {
           transform: translateX(-1869px);
       }
 
-    100% {
-         transform: translateX(-1869px);
-    }
+    
 
    }
 
